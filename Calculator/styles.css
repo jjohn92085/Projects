@@ -1,0 +1,60 @@
+#body {
+    border: 2px solid black;
+    width: 380px;
+    height: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.numbers-container {
+    position: relative;
+    margin: 50px;
+    transform: translateY(-300px);
+    bottom: 160px;
+    left: -35px;
+}
+
+.operations-container {
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 275px;
+  }
+
+.numbers {
+    width: 80px;
+    padding: 30px;
+    margin: 2px;
+}
+
+.operations {
+    width: 80px;
+    margin: 2px;
+    height: 55px;
+
+}
+
+#result {
+    position: relative;
+    left: -2px;
+    margin: 20px;
+    padding: 20px;
+    width: 210px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
