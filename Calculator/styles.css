@@ -1,24 +1,30 @@
+main {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #body {
     border: 2px solid black;
     width: 380px;
-    height: 450px;
+    height: 410px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #333333;
 }
 
 .numbers-container {
     position: relative;
     margin: 50px;
     transform: translateY(-300px);
-    bottom: 160px;
+    bottom: 140px;
     left: -35px;
 }
 
 .operations-container {
     position: relative;
-    bottom: 80px;
+    bottom: 78px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,14 +33,29 @@
 
 .numbers {
     width: 80px;
-    padding: 30px;
+    padding: 25px;
     margin: 2px;
+    background-color: #999999;
+    font-size: 1.10em;
+    color: white;
+}
+
+#clear {
+    color: red;
+}
+
+#equals {
+    background-color: lightskyblue;
+    color: black;
 }
 
 .operations {
     width: 80px;
     margin: 2px;
-    height: 55px;
+    height: 50px;
+    background-color: #999999;
+    color: white;
+    font-size: 1.10em;
 
 }
 
