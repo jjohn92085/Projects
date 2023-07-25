@@ -1,63 +1,17 @@
-body {
+#container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #87ceeb;
 }
 
-.balloon {
-    width: 100px;
-    height: 150px;
-    background-color: red;
-    border-radius: 50%;
-    position: relative;
+#balloon {
+    width: 300px;
+    height: 400px;
+    background-image: url('https://www.citypng.com/public/uploads/preview/-41605488105q477dyljlv.png');
+    background-size: contain;
+    cursor: pointer;
 }
 
-.balloon:before {
-    content: "";
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 30px 15px 0;
-    border-color: red transparent transparent transparent;
-    transform: translateX(-50%);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#balloon.popped {
+    background-image: url('https://images.freeimages.com/images/large-previews/76d/popped-balloon-3-1549315.jpg');
+  }
+  
