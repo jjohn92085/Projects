@@ -3,7 +3,7 @@ import random
 
 # get user input
 
-input = input("Please enter your name")
+input = input("Please enter your name ")
 
 # make the string input into a list
 
@@ -15,4 +15,6 @@ random.shuffle(list)
 
 # the shuffled list is converted back into a string
 
-scrambled = "".join(input_list)
+scrambled = "".join(list)
+
+print(scrambled)
